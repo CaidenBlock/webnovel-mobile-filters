@@ -1,0 +1,30 @@
+! Title: caidenblock - Webnovel Filters
+! Description: Filters to remove bad elements
+!
+! okay
+! 2023-01-07 https://bakapervert.wordpress.com
+! Remove paragraphs that only contain 1-2 '.' characters
+bakapervert.wordpress.com##p:has-text(/^\.{1,2}$/)
+! Remove the actionbar
+bakapervert.wordpress.com###actionbar
+
+! 2022-12-01 www.tseirptranslations.com
+www.tseirptranslations.com###cookie-law-info-bar
+www.tseirptranslations.com##.right_bottom.floating.style-1.wp-dark-mode-ignore.wp-dark-mode-switcher
+
+re-library.com###scrollUp
+re-library.com##.ai-viewport-3.code-block-17.code-block
+re-library.com##.code-block-18.code-block
+re-library.com###masthead
+re-library.com##.light.su-button-style-default.su-button > .light
+
+! 2023-01-06 www.foxaholic.com
+www.foxaholic.com###text-chapter-toolbar
+www.foxaholic.com##.active.go-to-top
+www.foxaholic.com##.hide-sticky-menu.with-border.c-sub-header-nav
+www.foxaholic.com###chapter-heading
+!empty p
+www.foxaholic.com##p:has-text(/^\ {1,2}$/)
+
+
+
