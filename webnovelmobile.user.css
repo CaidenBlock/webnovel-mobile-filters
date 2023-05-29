@@ -8,7 +8,7 @@
 @preprocessor   stylus
 ==/UserStyle== */
 
-@-moz-document url-prefix("lmstranslation.blogspot.com") {
+@-moz-document domain("lmstranslation.blogspot.com") {
     body {
         padding: 0;
     }
@@ -18,13 +18,13 @@
     }
 }
 
-@-moz-document url-prefix("japtem.blogspot.com") {
+@-moz-document domain("japtem.blogspot.com") {
     body {
         font-size: 22px !important
     }
 }
 
-@-moz-document url-prefix("japtem.com") {
+@-moz-document domain("japtem.com") {
     table {
         margin: 0 !important;
     }
