@@ -6,37 +6,31 @@
 @author         caidenblock
 @updateURL      https://github.com/CaidenBlock/webnovel-mobile-filters/raw/main/webnovelmobile.user.css
 @preprocessor   stylus
-
-
 ==/UserStyle== */
 
-
-
-
 @-moz-document url-prefix("lmstranslation.blogspot.com") {
-body {
-    padding: 0;
-}
-.content-outer {
-    max-width: 100vw !important;
-    margin: 0;
-}
-
+    body {
+        padding: 0;
+    }
+    .content-outer {
+        max-width: 100vw !important;
+        margin: 0;
+    }
 }
 
 @-moz-document url-prefix("japtem.blogspot.com") {
-body {
-    font-size: 22px !important
-}
+    body {
+        font-size: 22px !important
+    }
 }
 
 @-moz-document url-prefix("japtem.com") {
-table {
-    margin: 0 !important;
-}
-table td {
-    padding: 5px 2px 0px 2px !important;
-    margin: 0px !important;
-    height: 40% !important;
-}
+    table {
+        margin: 0 !important;
+    }
+    table td {
+        padding: 5px 2px 0px 2px !important;
+        margin: 0px !important;
+        height: 40% !important;
+    }
 }
