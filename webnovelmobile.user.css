@@ -1,12 +1,24 @@
 /* ==UserStyle==
 @name           webnovel mobile filters
 @namespace      github.com/CaidenBlock/webnovel-mobile-filters
-@version        0.0.2
-@description    adjusts some sites to make content work on mobile, may also require the ublock filter list
+@version        0.0.3
+@description    adjusts some sites to make content work on mobile, may also require the ublock filter list, added as I read
 @author         caidenblock
 @updateURL      https://github.com/CaidenBlock/webnovel-mobile-filters/raw/main/webnovelmobile.user.css
 @preprocessor   stylus
 ==/UserStyle== */
+@-moz-document domain("royalroadweed.blogspot.com") {
+    body{
+        line-height: normal !important;
+    }
+    .container, #main {
+        width: 98% !important;
+        margin: 0 1vw !important;
+    }
+    .post {
+        padding: 0 0 0 0 !important;
+    }
+}
 
 @-moz-document domain("lmstranslation.blogspot.com") {
     body {
