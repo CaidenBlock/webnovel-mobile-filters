@@ -49,3 +49,12 @@
         height: 40% !important;
     }
 }
+@-moz-document domain("tseirptranslations.com") {
+    /* Hide paragraph elements that aren't text and dont have children please give :blank*/
+    p:not(.darklup--text):not(:has(*)) {
+        display: none;
+    }
+    p {
+        margin: 1.3vh auto !important;
+    }
+}
