@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           webnovel mobile filters
 @namespace      github.com/CaidenBlock/webnovel-mobile-filters
-@version        0.0.5
+@version        0.0.6
 @description    adjusts some sites to make content work on mobile, may also require the ublock filter list, added as I read
 @author         caidenblock
 @updateURL      https://github.com/CaidenBlock/webnovel-mobile-filters/raw/main/webnovelmobile.user.css
@@ -55,6 +55,6 @@
         display: none;
     }
     p {
-        margin: 1.3vh auto !important;
+        margin: 1.5vh auto !important;
     }
 }
